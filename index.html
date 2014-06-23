@@ -593,9 +593,15 @@ body {
     <p>CSS gives us the ability to use different ways of specifiying colour. We've got:</p>
 
     <ul>
-    <li><strong>Hex code</strong>, which is a 6-character code that specifies a colour. In case you're interested, each pair of the 6 numbers represents Red, Green and Blue. So for instance, since black is the absence of colour we get #000000. Basically none of either red, green or blue. 
+    <li><strong>Hex code</strong>, which is a 6-character code that specifies a colour. In case you're interested, each pair of the 6 numbers represents Red, Green and Blue. So for instance, since black is the absence of colour we get #<span class="red">00</span><span class="green">00</span><span class="blue">00</span>. Basically none of either red, green or blue. 
     </li>
-    <li><strong>RGB:</strong> Another way to specify colour is using RGB values. Like HEX code, we're still combining varying amounts of red, green and blue but we write it a little differently:  </li>
+    <li><strong>RGB:</strong> Another way to specify colour is using RGB values. Like HEX code, we're still combining varying amounts of red, green and blue but we write it a little differently: 
+      <pre><code class="language-css">
+body {
+  color: rgb(0,0,0);
+  /*where all values are out of a total of 255*/
+} </code></pre>
+    </li>
     </ul>
     </article>
     <!-- SLIDE CSS Fonts -->
