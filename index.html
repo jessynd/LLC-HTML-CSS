@@ -475,7 +475,30 @@ p {
 }
 </code></pre>
     </article>
-    
+
+    <!-- new slide -->
+    <article class='slide slide-list'>
+      <h2>Let's add this to our HTML document</h2>
+      <p>To indicate that we're adding CSS to blank.html, we need to find the opening and closing <code>&#60;style&#62;</code> tags between our opening and closing <code>&#60;head&#62;</code> tags.</p>
+<pre class="language-markup"><code class="">
+  &#60;!doctype html&#62;
+  &#60;html&#62;
+    &#60;head&#62;
+      &#60;title&#62;Ladies Learning Code HTML and CSS&#60;/title&#62;
+      &#60;style&#62;
+        p {
+        color: red;
+        text-decoration: underline;
+        }
+      &#60;/style&#62;
+    &#60;/head&#62;
+    &#60;body&#62;
+      &#60;p&#62;This is a paragraph&#60;/p&#62;
+    &#60;/body&#62;
+  &#60;/html&#62;
+      </code></pre>
+    </article>
+
     <!-- SLIDE: CSS Syntax 1 -->
     <article class="slide slide-list">
       <h2>CSS Syntax</h2>
@@ -505,28 +528,6 @@ p {
         <p>The <strong>value</strong> (the part <em>after</em> the colon) is specific to the property type</p>
         <p>Ex. size-related properties like <code>height, width</code>, or <code>font-size</code> are usually specified in <code>px</code> (pixels), while colour-related properties are specified with a colour name or code</p>
         <p>It's very important that you write the syntax correctly, with a colon after the property name and a semi-colon after the value.</p>
-    </article>
-
-    <!-- SLIDE Adding Style Tags -->
-    <article class="slide slide-list">
-      <h2>Adding CSS to HTML</h2>
-      <p>You write CSS rules in a set of <code>&lt;style>&lt;/style></code> tags</p>
-      <p>You add the style tags to the <code>&lt;head></code> of your HTML document like this:</p>
-<pre><code class="language-markup">
-&lt;html>
-  &lt;head>
-    &lt;style>
-      h2 {
-        background-color: green;
-      }
-    &lt;/style>
-  &lt;/head>
-  &lt;body>
-
-  &lt;/body>
-&lt;/html>
-</code></pre>
-      </ul>
     </article>
 
     <!-- SLIDE: CSS Syntax 3 -->
